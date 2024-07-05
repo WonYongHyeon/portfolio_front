@@ -1,4 +1,4 @@
-import { IntroduceDataType } from "@/common/data";
+import { IntroduceDataType } from "../../data";
 import * as S from "./introduce.styles";
 
 interface Props {

@@ -1,4 +1,4 @@
-import { SkillDataType } from "@/common/data";
+import { SkillDataType } from "../../data";
 import * as S from "./skill.styles";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";

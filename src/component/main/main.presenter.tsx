@@ -1,11 +1,11 @@
-import MainIntroduce from "@/common/MainItem/introduce/introduce.container";
+import MainIntroduce from "../../common/MainItem/introduce/introduce.container";
 import * as S from "./main.styles";
-import { SkillDataType, IntroduceDataType } from "@/common/data";
+import { SkillDataType, IntroduceDataType } from "../../common/data";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
-import MainSkill from "@/common/MainItem/skill/skill.container";
-import MainProject from "@/common/MainItem/project/project.container";
-import MainTil from "@/common/MainItem/TIL/til.container";
+import MainSkill from "../../common/MainItem/skill/skill.container";
+import MainProject from "../../common/MainItem/project/project.container";
+import MainTil from "../../common/MainItem/TIL/til.container";
 
 interface Props {
   skill: SkillDataType;

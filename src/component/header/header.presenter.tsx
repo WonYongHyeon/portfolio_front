@@ -1,5 +1,4 @@
 import * as S from "./header.styles";
-import Menu from "../../assets/menu.png";
 
 interface Props {
   visible: boolean;
