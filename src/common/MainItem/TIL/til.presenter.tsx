@@ -8,6 +8,7 @@ interface Props {
     link: string;
   }[];
   onClickItem: (link: string) => void;
+  onClickRoute: () => void;
 }
 
 export default function MainTilUI(props: Props) {
@@ -16,7 +17,7 @@ export default function MainTilUI(props: Props) {
       <S.TilWrapper>
         <S.TilTitleWrapper>
           <S.TilTitle>Today I Learned</S.TilTitle>
-          <S.MoreTilButton>
+          <S.MoreTilButton onClick={props.onClickRoute}>
             More About TIL{" "}
             <S.MoreButtonArrow src="../../assets/arrow.svg"></S.MoreButtonArrow>
           </S.MoreTilButton>

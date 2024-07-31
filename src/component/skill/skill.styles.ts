@@ -7,7 +7,7 @@ interface Props {
 
 export const Body = styled.div`
   padding: 5rem auto;
-  height: calc(100vh - 11rem);
+  height: calc(100vh - 6rem);
   @media (max-width: 950px) {
     height: 100%;
   }
@@ -18,7 +18,7 @@ export const RotateCanvasWrapper = styled.div`
   align-items: center;
   justify-content: center;
   gap: 10vw;
-  padding: 10rem 5rem;
+  padding: 14rem 5rem;
   @media (max-width: 950px) {
     flex-direction: column;
   }

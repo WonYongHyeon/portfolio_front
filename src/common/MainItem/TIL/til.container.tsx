@@ -18,6 +18,10 @@ export default function MainTil() {
     router.push(link);
   };
 
+  const onClickRoute = () => {
+    router.push("/TIL");
+  };
+
   /** 서버에서 TIL 리스트를 받아오는 함수 */
   const getTilList = () => {
     axios
@@ -38,5 +42,11 @@ export default function MainTil() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return <MainTilUI tilList={tilList} onClickItem={onClickItem}></MainTilUI>;
+  return (
+    <MainTilUI
+      tilList={tilList}
+      onClickItem={onClickItem}
+      onClickRoute={onClickRoute}
+    ></MainTilUI>
+  );
 }
